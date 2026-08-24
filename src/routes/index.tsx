@@ -189,9 +189,6 @@ function Index() {
                   <span className="size-2.5 rounded-full bg-destructive/70" />
                   <span className="size-2.5 rounded-full bg-ember/70" />
                   <span className="size-2.5 rounded-full bg-muted-foreground/40" />
-                  <span className="ml-3 truncate text-xs text-muted-foreground">
-                    {p.url.replace("https://", "")}
-                  </span>
                 </div>
                 <img
                   src={p.img}
