@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { ArrowUpRight, Check } from "lucide-react";
+import { ArrowUpRight, Check, Mail, MessageCircle, Facebook } from "lucide-react";
 
 import serralheria from "@/assets/serralheria.jpg";
 import advocacia from "@/assets/advocacia.jpg";
