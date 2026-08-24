@@ -153,7 +153,9 @@ function Index() {
               Ver projetos no ar
             </a>
             <a
-              href="#contato"
+              href={WHATSAPP_URL}
+              target="_blank"
+              rel="noreferrer"
               className="rounded-full border border-border px-7 py-3.5 font-semibold transition-colors hover:bg-surface"
             >
               Quero um site assim
