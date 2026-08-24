@@ -121,7 +121,9 @@ function Index() {
             </a>
           </div>
           <a
-            href="#contato"
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noreferrer"
             className="rounded-full bg-gradient-ember px-5 py-2 text-sm font-semibold text-primary-foreground shadow-glow transition-transform hover:scale-[1.03]"
           >
             Pedir orçamento
