@@ -296,10 +296,7 @@ function Index() {
           <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
             <div className="text-center sm:text-left">
               <p className="font-display text-lg font-bold tracking-tight">
-                RC<span className="text-gradient-ember"> Criação</span>
-              </p>
-              <p className="mt-1 text-sm text-muted-foreground">
-                Criação de Sites e Presença Digital
+                RC<span className="text-gradient-ember"> Criação de Sites</span> e Presença Digital
               </p>
             </div>
             <div className="flex flex-col items-center gap-3 sm:items-end">
