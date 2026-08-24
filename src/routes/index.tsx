@@ -106,8 +106,8 @@ function Index() {
     <main className="min-h-screen bg-background">
       <header className="sticky top-0 z-40 border-b border-border/60 bg-background/80 backdrop-blur">
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-          <a href="#topo" className="font-display text-lg font-bold tracking-tight">
-            RC<span className="text-gradient-ember"> Criação</span>
+          <a href="#topo" className="font-display text-base font-bold tracking-tight sm:text-lg">
+            RC<span className="text-gradient-ember"> Criação de Sites</span>
           </a>
           <div className="hidden items-center gap-8 text-sm text-muted-foreground md:flex">
             <a href="#projetos" className="transition-colors hover:text-foreground">
@@ -296,10 +296,7 @@ function Index() {
           <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
             <div className="text-center sm:text-left">
               <p className="font-display text-lg font-bold tracking-tight">
-                RC<span className="text-gradient-ember"> Criação</span>
-              </p>
-              <p className="mt-1 text-sm text-muted-foreground">
-                Criação de Sites e Presença Digital
+                RC<span className="text-gradient-ember"> Criação de Sites</span> e Presença Digital
               </p>
             </div>
             <div className="flex flex-col items-center gap-3 sm:items-end">
