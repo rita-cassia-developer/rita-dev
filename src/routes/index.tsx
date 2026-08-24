@@ -9,13 +9,13 @@ import lanchonete from "@/assets/lanchonete.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Rita de Cassia | Sites que vendem para o seu negócio" },
+      { title: "RC Criação de Sites e Presença Digital | Sites que vendem para o seu negócio" },
       {
         name: "description",
         content:
-          "Desenvolvedora web. Crio sites e landing pages rápidos e modernos para serralherias, advocacia, lava-rápido, lanchonetes e outros negócios. Veja os projetos no ar.",
+          "RC Criação de Sites e Presença Digital. Crio sites e landing pages rápidos e modernos para serralherias, advocacia, lava-rápido, lanchonetes e outros negócios. Veja os projetos no ar.",
       },
-      { property: "og:title", content: "Rita de Cassia | Sites que vendem para o seu negócio" },
+      { property: "og:title", content: "RC Criação de Sites e Presença Digital | Sites que vendem para o seu negócio" },
       {
         property: "og:description",
         content:
@@ -102,7 +102,7 @@ function Index() {
       <header className="sticky top-0 z-40 border-b border-border/60 bg-background/80 backdrop-blur">
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <a href="#topo" className="font-display text-lg font-bold tracking-tight">
-            Rita<span className="text-gradient-ember">.dev</span>
+            RC<span className="text-gradient-ember"> Criação</span>
           </a>
           <div className="hidden items-center gap-8 text-sm text-muted-foreground md:flex">
             <a href="#projetos" className="transition-colors hover:text-foreground">
@@ -279,7 +279,7 @@ function Index() {
 
       <footer className="border-t border-border/60">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-6 py-8 text-sm text-muted-foreground sm:flex-row">
-          <p>Rita de Cassia · Desenvolvedora web</p>
+          <p>RC Criação de Sites e Presença Digital</p>
           <p>Sites sob medida para pequenos e médios negócios</p>
         </div>
       </footer>
