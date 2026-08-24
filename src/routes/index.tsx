@@ -6,6 +6,11 @@ import advocacia from "@/assets/advocacia.jpg";
 import lavacar from "@/assets/lavacar.jpg";
 import lanchonete from "@/assets/lanchonete.jpg";
 
+const WHATSAPP_URL =
+  "https://wa.me/5543996846394?text=Ol%C3%A1%20Rita!%20Vi%20seu%20portf%C3%B3lio%20e%20quero%20um%20or%C3%A7amento%20de%20site%20para%20minha%20empresa.";
+const EMAIL_URL = "mailto:rccode.dev@outlook.com?subject=Quero%20um%20site%20para%20minha%20empresa";
+const FACEBOOK_URL = "https://www.facebook.com/people/RC-Cria%C3%A7%C3%A3o-de-sites";
+
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
