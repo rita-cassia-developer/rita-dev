@@ -5,6 +5,7 @@ import serralheria from "@/assets/serralheria.jpg";
 import advocacia from "@/assets/advocacia.jpg";
 import lavacar from "@/assets/lavacar.jpg";
 import lanchonete from "@/assets/lanchonete.jpg";
+import logo from "@/assets/minha-logo.jpeg.asset.json";
 
 const WHATSAPP_URL =
   "https://wa.me/5543996846394?text=Ol%C3%A1%20Rita!%20Vi%20seu%20portf%C3%B3lio%20e%20quero%20um%20or%C3%A7amento%20de%20site%20para%20minha%20empresa.";
@@ -106,8 +107,15 @@ function Index() {
     <main className="min-h-screen bg-background">
       <header className="sticky top-0 z-40 border-b border-border/60 bg-background/80 backdrop-blur">
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-          <a href="#topo" className="font-display text-base font-bold tracking-tight sm:text-lg">
-            RC<span className="text-gradient-ember"> Criação de Sites</span>
+          <a href="#topo" className="flex items-center gap-3">
+            <img
+              src={logo.url}
+              alt="Logo RC Criação de Sites"
+              className="size-10 rounded-lg object-cover sm:size-11"
+            />
+            <span className="font-display text-base font-bold tracking-tight sm:text-lg">
+              RC<span className="text-gradient-ember"> Criação de Sites</span>
+            </span>
           </a>
           <div className="hidden items-center gap-8 text-sm text-muted-foreground md:flex">
             <a href="#projetos" className="transition-colors hover:text-foreground">
@@ -133,9 +141,6 @@ function Index() {
 
       <section id="topo" className="grid-noise border-b border-border/60">
         <div className="mx-auto max-w-6xl px-6 py-24 md:py-32">
-          <p className="mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-surface/60 px-4 py-1.5 text-xs uppercase tracking-[0.2em] text-muted-foreground">
-            Desenvolvedora web · Projetos no ar
-          </p>
           <h1 className="max-w-4xl text-5xl font-bold leading-[1.05] md:text-7xl">
             O site da sua empresa pode ser{" "}
             <span className="text-gradient-ember">a sua melhor vendedora</span>.
