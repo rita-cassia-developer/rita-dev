@@ -108,7 +108,7 @@ function Index() {
       <header className="sticky top-0 z-40 border-b border-border/60 bg-background/80 backdrop-blur">
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <a href="#topo" className="flex items-center gap-3">
-            <span className="relative inline-flex size-10 items-center justify-center overflow-hidden rounded-xl bg-card p-[3px] ring-1 ring-primary/40 shadow-[0_0_18px_-6px_hsl(var(--primary)/0.6)] sm:size-11">
+            <span className="relative inline-flex size-10 items-center justify-center overflow-hidden rounded-xl bg-card p-[3px] ring-1 ring-primary/40 shadow-[0_0_18px_-6px_var(--primary)] sm:size-11">
               <img
                 src={logo.url}
                 alt="Logo RC Criação de Sites"
