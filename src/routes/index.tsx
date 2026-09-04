@@ -298,7 +298,13 @@ function Index() {
       <footer className="border-t border-border/60">
         <div className="mx-auto max-w-6xl px-6 py-10">
           <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
-            <div className="text-center sm:text-left">
+            <div className="flex flex-col items-center gap-3 sm:flex-row sm:text-left">
+              <img
+                src={logo.url}
+                alt="Logo RC Criação de Sites"
+                loading="lazy"
+                className="size-12 object-contain"
+              />
               <p className="font-display text-lg font-bold tracking-tight">
                 RC<span className="text-gradient-ember"> Criação de Sites</span> e Presença Digital
               </p>
