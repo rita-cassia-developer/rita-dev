@@ -5,7 +5,7 @@ import serralheria from "@/assets/serralheria.jpg";
 import advocacia from "@/assets/advocacia.jpg";
 import lavacar from "@/assets/lavacar.jpg";
 import lanchonete from "@/assets/lanchonete.jpg";
-import logo from "@/assets/minha-logo.jpeg.asset.json";
+import logo from "@/assets/rc-logo-brasa.png.asset.json";
 
 const WHATSAPP_URL =
   "https://wa.me/5543996846394?text=Ol%C3%A1%20Rita!%20Vi%20seu%20portf%C3%B3lio%20e%20quero%20um%20or%C3%A7amento%20de%20site%20para%20minha%20empresa.";
@@ -108,14 +108,12 @@ function Index() {
       <header className="sticky top-0 z-40 border-b border-border/60 bg-background/80 backdrop-blur">
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <a href="#topo" className="flex items-center gap-3">
-            <span className="relative inline-flex size-10 items-center justify-center overflow-hidden rounded-xl bg-card p-[3px] ring-1 ring-primary/40 shadow-[0_0_18px_-6px_var(--primary)] sm:size-11">
-              <img
-                src={logo.url}
-                alt="Logo RC Criação de Sites"
-                className="size-full rounded-lg object-cover [filter:contrast(1.08)_saturate(0.9)]"
-              />
-              <span className="pointer-events-none absolute inset-0 rounded-xl bg-gradient-to-tr from-primary/25 via-transparent to-transparent mix-blend-overlay" />
-            </span>
+            <img
+              src={logo.url}
+              alt="Logo RC Criação de Sites"
+              className="size-10 object-contain drop-shadow-[0_0_16px_oklch(0.68_0.17_42/0.35)] sm:size-11"
+            />
+
 
             <span className="font-display text-base font-bold tracking-tight sm:text-lg">
               RC<span className="text-gradient-ember"> Criação de Sites</span>
