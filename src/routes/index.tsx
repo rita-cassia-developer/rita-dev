@@ -235,6 +235,8 @@ function Index() {
         </div>
       </section>
 
+      <SolucoesDigitais whatsappUrl={WHATSAPP_URL} />
+
       <section id="entregas" className="border-y border-border/60 bg-surface/40">
         <div className="mx-auto max-w-6xl px-6 py-24">
           <h2 className="max-w-2xl text-4xl font-bold md:text-5xl">O que você recebe</h2>
