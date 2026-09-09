@@ -124,6 +124,9 @@ function Index() {
             <a href="#projetos" className="transition-colors hover:text-foreground">
               Projetos
             </a>
+            <a href="#solucoes" className="transition-colors hover:text-foreground">
+              Serviços
+            </a>
             <a href="#entregas" className="transition-colors hover:text-foreground">
               O que você recebe
             </a>
