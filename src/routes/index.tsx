@@ -8,7 +8,7 @@ import lanchonete from "@/assets/lanchonete.jpg";
 import logo from "@/assets/rc-logo-brasa.png.asset.json";
 
 const WHATSAPP_URL =
-  "https://wa.me/5543996846394?text=Ol%C3%A1%20Rita!%20Vi%20seu%20portf%C3%B3lio%20e%20quero%20um%20or%C3%A7amento%20de%20site%20para%20minha%20empresa.";
+  "https://wa.me/5543996846394?text=Ol%C3%A1%20Rita!%20Quero%20posicionar%20minha%20empresa%20na%20internet%20e%20atrair%20mais%20clientes.%20Pode%20me%20passar%20um%20or%C3%A7amento%3F";
 const EMAIL_URL = "mailto:rccode.dev@outlook.com?subject=Quero%20um%20site%20para%20minha%20empresa";
 const FACEBOOK_URL = "https://www.facebook.com/people/RC-Cria%C3%A7%C3%A3o-de-sites";
 
