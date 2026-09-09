@@ -6,6 +6,7 @@ import advocacia from "@/assets/advocacia.jpg";
 import lavacar from "@/assets/lavacar.jpg";
 import lanchonete from "@/assets/lanchonete.jpg";
 import logo from "@/assets/rc-logo-brasa.png.asset.json";
+import { SolucoesDigitais } from "@/components/solucoes-digitais";
 
 const WHATSAPP_URL =
   "https://wa.me/5543996846394?text=Ol%C3%A1%20Rita!%20Quero%20posicionar%20minha%20empresa%20na%20internet%20e%20atrair%20mais%20clientes.%20Pode%20me%20passar%20um%20or%C3%A7amento%3F";
@@ -123,6 +124,9 @@ function Index() {
             <a href="#projetos" className="transition-colors hover:text-foreground">
               Projetos
             </a>
+            <a href="#solucoes" className="transition-colors hover:text-foreground">
+              Serviços
+            </a>
             <a href="#entregas" className="transition-colors hover:text-foreground">
               O que você recebe
             </a>
@@ -233,6 +237,8 @@ function Index() {
           ))}
         </div>
       </section>
+
+      <SolucoesDigitais whatsappUrl={WHATSAPP_URL} />
 
       <section id="entregas" className="border-y border-border/60 bg-surface/40">
         <div className="mx-auto max-w-6xl px-6 py-24">
