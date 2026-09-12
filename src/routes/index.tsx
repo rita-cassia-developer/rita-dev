@@ -5,6 +5,7 @@ import serralheria from "@/assets/serralheria.jpg";
 import advocacia from "@/assets/advocacia.jpg";
 import lavacar from "@/assets/lavacar.jpg";
 import lanchonete from "@/assets/lanchonete.jpg";
+import barbearia from "@/assets/barbearia.jpg";
 import logo from "@/assets/rc-logo-brasa.png.asset.json";
 import { SolucoesDigitais } from "@/components/solucoes-digitais";
 
@@ -71,6 +72,15 @@ const projetos = [
     resultado:
       "Cardápio digital apetitoso com destaque para promoções e pedido direto pelo celular.",
     tags: ["Cardápio digital", "Delivery", "Promoções"],
+  },
+  {
+    nome: "Vetor Barbers",
+    segmento: "Barbearia com agendamento online",
+    img: barbearia,
+    url: "https://barbershopscheduler.lovable.app",
+    resultado:
+      "Sistema de agendamento em tempo real: o cliente escolhe serviço, barbeiro e horário direto no site, sem fila e sem espera.",
+    tags: ["Agendamento online", "Escolha de barbeiro", "Tempo real"],
   },
 ];
 
